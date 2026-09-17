@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Executar testes
-        run: node tests/testes.js
+        run: node testes.js
