@@ -1,22 +1,30 @@
-funfiction somar(a, b) {
-  return a + b;
+function somar(a, b) {
+    return a + b;
 }
-funfiction subtrair(a, b) {
-  return a - b;
+
+function subtrair(a, b) {
+    return a - b;
 }
-funfiction multiplicar(a, b) {
-  return a * b;
+
+function multiplicar(a, b) {
+    return a * b;
 }
-funfiction dividir(a, b) {
-  return a / b;
+
+function dividir(a, b) {
+    return a / b;
 }
-// teste1
+
+// teste 1
 console.assert(somar(2, 3) === 5);
-// teste2
+
+// teste 2
 console.assert(subtrair(5, 2) === 3);
-// teste3
+
+// teste 3
 console.assert(multiplicar(3, 4) === 12);
-// teste4
-console.assert(dividir(10, 2) === 15);
-// teste5
-console.assert(somar(10, 2) === 15);
+
+// teste 4
+console.assert(dividir(10, 2) === 5);
+
+// teste 5
+console.assert(somar(10, 5) === 15);
