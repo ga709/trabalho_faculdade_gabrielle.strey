@@ -1,16 +1,17 @@
-name: Testes Unitários
+name: Testes Unitarios
 
 on:
   pull_request:
-    branches: ["main]
+    branches:
+      - main
 
 jobs:
   testes:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-    - name: Baixar código
-    - uses: action/checkout@v4
+      - name: Baixar codigo
+        uses: actions/checkout@v4
 
-    - name: Executar testes
-      run: node testes.js
+      - name: Executar testes
+        run: node tests/testes.js
