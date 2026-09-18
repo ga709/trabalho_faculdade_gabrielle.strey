@@ -15,7 +15,7 @@ function dividir(a, b) {
 }
 
 // teste 1
-console.assert(somar(2, 3) === 5);
+console.assert(somar(2, 3) === 999);
 
 // teste 2
 console.assert(subtrair(5, 2) === 3);
